@@ -11,6 +11,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
+    width: 400px;
 }
 
 .wrapper {
@@ -23,11 +24,12 @@ img {
 
 .slide li {
     flex-shrink: 0;
-    width: 80vw;
+    width: 30vw;
     max-width: 800px;
     margin: 0;
 }
 
-.slide {
-    transform: translate3d(-500px, 0px,0px);
+
+.im1:hover {
+    width: 600px;
 }
